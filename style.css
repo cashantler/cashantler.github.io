@@ -2,12 +2,17 @@
 
 body {
 	font-size: 20px;
-	color:#c6ccb1;
+	color:#c6ccb2;
 	font-family: 'arial';
-	background-color:#f6e7b0;
+	background-color:#c6ccb2;
 	background-image: none;
 	text-align: center;
 
+}
+
+img.scale {
+	height: 90%;
+	width: 90%;
 }
 
 h1 {
@@ -21,11 +26,10 @@ h1 {
 }
 
 figure{
-    width:400px;
-    height:220px;
-    border-radius:4px;
-    border:2px solid #4f3130;
-    position:relative;
+	width: max-width;
+	margin: auto;
+	border: 10px solid #4f3130;
+	background-color: #4f3130;
 }
 
 h2 {
@@ -66,11 +70,11 @@ a:active  {color:#1b76a0; background-color:transparent; text-decoration:underlin
 	-webkit-filter: brightness(3); filter: brightness(3);
 	position:relative;
 	color:#03b0ff;
-	top:5px;
+	bottom: 4px;
 }
 .button:active {
 	position:relative;
-	top:2px;
+	top:5px;
 }
 
 .gamelistframe {

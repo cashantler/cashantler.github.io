@@ -12,22 +12,22 @@ function cashtext() {
 	switch(rand)
 		{
 			case(1):
-				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$$$$$$";
+				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "\n$$";
 				break
 			case(2):
-				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$";
+				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$$$$$$$$";
 				break
 			case(3):
-				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$$$$$";
+				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "\n$$$$$$$";
 				break
 			case(4):
-				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$";
+				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$$$$$";
 				break
 			case(5):
-				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$$$$";
+				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "\n$$$$$$";
 				break
 			default:
-				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$$$$$";
+				document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + "$";
 				break
 
 		}
